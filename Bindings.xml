@@ -1,0 +1,8 @@
+<Bindings>
+	<!-- only run on up so it doesn't fire twice -->
+	<Binding name="UDMF_GET_URL" header="UndermineFetch" category="ADDONS" runOnUp="true">
+		if keystate == "up" then
+			UDMF_ShowURL()
+		end
+	</Binding>
+</Bindings>
